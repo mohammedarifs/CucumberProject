@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="./src/test/resources/Feature", glue={"stepdefination"},
 plugin= {"pretty","html:target/reports/cucmber.html","junit:target/reports/cucumber.html","json:target/cucumber.json"}, monochrome = true)
-//testing code step 2
+//testing code step 3
 public class testrunner {
 		
 	
