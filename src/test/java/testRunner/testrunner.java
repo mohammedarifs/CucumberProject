@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="./src/test/resources/Feature", glue={"stepdefination"},
 plugin= {"pretty","html:target/reports/cucmber.html","junit:target/reports/cucumber.html","json:target/cucumber.json"}, monochrome = true)
 
-//No testing
+// testing after ip change
 public class testrunner {
 		
 	
